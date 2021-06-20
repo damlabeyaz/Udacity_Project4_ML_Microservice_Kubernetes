@@ -1,1 +1,15 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) dildik@Ferhats-MBP Udacity_Project4_ML_Microservice_Kubernetes % ./run_kubernetes.sh 
+Error from server (AlreadyExists): pods "mycontainer" already exists
+NAME          READY   STATUS    RESTARTS   AGE
+mycontainer   1/1     Running   1          24m
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+
+(.devops) dildik@Ferhats-MBP Udacity_Project4_ML_Microservice_Kubernetes % ./make_prediction.shPort: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+(.devops) dildik@Ferhats-MBP Udacity_Project4_ML_Microservice_Kubernetes % 
